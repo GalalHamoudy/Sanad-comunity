@@ -1,0 +1,148 @@
+
+.profile-page .profile-header .user_pic {
+    position: initial;
+}
+.chat .chat-history .my-message {
+    background: #e8cd7e;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    color: black;
+
+}
+.chat .chat-history .other-message {
+    background: #d9e7ea;
+    color: black;
+    padding: 10px;
+
+}
+.chat .chat-history .my-message:after {
+    display: none;
+}
+
+.card .body.bg-dark {
+    color: #bdbdbd !important;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+.theme-black .authentication {
+    background: url(../../uploads/main.jpg) !important;
+    background-size: cover !important;
+}
+.chat .chat-history .message-data-time {
+    color: #757575;
+    margin: 0px;
+    display: inline;
+
+}
+.message  hr{
+    margin: 5px 0px;
+}
+.chat .chat-history .other-message:after {
+display: none;
+}
+
+/* --------------------------------------------------------- */
+.mg_ba{
+    border: 1px dashed ;
+    padding: 40px !important;
+    background-color: #11585854;
+    font-family: 'Changa', sans-serif !important;
+}
+.x{
+    font-family: 'Changa', sans-serif !important; 
+}
+
+.alert strong {
+    font-size: 17px;
+    font-weight: 100;
+}
+/* --------------------------------- */
+.com_card{
+    background-color: #eee;
+}
+.com_btn{
+    color: black !important;
+    font-family: 'Changa', sans-serif !important; 
+    font-size: 19px;
+    font-weight: 900;
+}
+.com_btn i{
+    font-size: 22px;
+    margin: 2px;
+}
+.com_all{
+    cursor: pointer;
+}
+/*  */
+.radio label::before, .radio label::after {
+    right: -23px !important;
+}
+.radio input[type="radio"]:checked+label::after {
+    opacity: 1;
+    right: -16px !important;
+}
+/*  */
+.see{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 98, 204) !important;
+    border-color: rgb(0, 92, 191) !important;
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5) !important;
+}
+/*  */
+/* input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    position: relative;
+    right: 88px;
+    background-color: white;
+} */
+#yourBtn {
+
+    top: 150px;
+    font-family: calibri;
+    width: 150px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px dashed #BBB;
+    text-align: center;
+    background-color: #DDD;
+    cursor: pointer;
+  }
+  #chats{
+    overflow-x: auto;
+  }
+
+
+
+
+
+
+  #controls{
+    text-align: right;
+  }
+  #controls button{
+    padding: 5px 13px;
+    border-radius: 8px;
+  }
+  #formats{
+    text-align: right;
+    margin: 20px 0px;
+    font-weight: 700;
+  }
+  #re{
+    text-align: right;
+  }
+  #news{
+    background-color: black;
+    color: wheat;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
